@@ -1,11 +1,7 @@
-### 👋 ¡Hola! Soy Nico
-
- 👨‍💻 Soy un profesional en Administración, Comercio y Full-Stack Developer en formación. Me apasiona resolver problemas y optimizar procesos mediante la tecnología.
+### 👋 ¡Hola! Soy NiKiN
 
 
-### Resolutivo y orientado a la optimización de procesos
-
-Soy un profesional con una sólida trayectoria en **administración**, **gestión comercial** y **desarrollo web Full-Stack**, capacitado para enfrentar y resolver desafíos complejos en sectores públicos y privados. Mi enfoque está en la **optimización de procesos**, la mejora continua y la implementación de soluciones tecnológicas que permitan alcanzar objetivos estratégicos.
+  👨‍💻  Profesional con una sólida trayectoria en **administración**, **gestión comercial** y **desarrollo web Full-Stack**, capacitado para enfrentar y resolver desafíos complejos en sectores públicos y privados. Mi enfoque está en la **optimización de procesos**, la mejora continua y la implementación de soluciones tecnológicas que permitan alcanzar objetivos estratégicos.
 
 ---
 
