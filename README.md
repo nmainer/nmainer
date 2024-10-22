@@ -43,4 +43,4 @@ Soy un profesional con una sólida trayectoria en **administración**, **gestió
 
 ### 📫 Contacto
 - **Correo:** mainermnicolas@gmail.com
-- **LinkedIn:** [Tu Nombre](https://www.linkedin.com/in/nicolas-matias-mainer-95706a208/)
+- **LinkedIn:** [NiKiN](https://www.linkedin.com/in/nicolas-matias-mainer-95706a208/)
