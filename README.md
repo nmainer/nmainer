@@ -17,11 +17,38 @@ Soy un profesional con una sólida trayectoria en **administración**, **gestió
 
 ---
 
-### 🚀 Tecnologías y Habilidades
-- **Lenguajes:** ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC.svg?style=flat&logo=typescript&logoColor=white)
-- **Frontend:** ![React](https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=react&logoColor=black)
-- **Backend:** ![NestJS](https://img.shields.io/badge/NestJS-E0234E.svg?style=flat&logo=nestjs&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933.svg?style=flat&logo=node.js&logoColor=white)
-- **Bases de datos:** ![SQL](https://img.shields.io/badge/SQL-4479A1.svg?style=flat&logo=sql&logoColor=white)
+### 🚀 Tecnologías y Herramientas
+
+- **Lenguajes y Frameworks:**
+  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=javascript&logoColor=black)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC.svg?style=flat&logo=typescript&logoColor=white)
+  ![React](https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=react&logoColor=black)
+  ![Redux](https://img.shields.io/badge/Redux-764ABC.svg?style=flat&logo=redux&logoColor=white)
+  ![Next.js](https://img.shields.io/badge/Next.js-000000.svg?style=flat&logo=nextdotjs&logoColor=white)
+  ![Express](https://img.shields.io/badge/Express-000000.svg?style=flat&logo=express&logoColor=white)
+  ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3.svg?style=flat&logo=bootstrap&logoColor=white)
+
+  
+- **Librerías:**
+  ![Axios](https://img.shields.io/badge/Axios-5A29E4.svg?style=flat&logo=axios&logoColor=white)
+  ![Dotenv](https://img.shields.io/badge/Dotenv-ECD53F.svg?style=flat&logo=dotenv&logoColor=black)
+  ![Bcrypt](https://img.shields.io/badge/Bcrypt-339933.svg?style=flat&logo=bcrypt&logoColor=white)
+
+
+- **Bases de datos:**
+  ![SQL](https://img.shields.io/badge/SQL-4479A1.svg?style=flat&logo=sql&logoColor=white)
+  ![Mongoose](https://img.shields.io/badge/Mongoose-47A248.svg?style=flat&logo=mongodb&logoColor=white)
+
+- **Herramientas Administrativas:**
+  - SIEM (Seguridad de la Información)
+  - SIDOM (Sistema Documental)
+  - SIIN (Sistema Integral de Información)
+  - RAFAM (Sistema Administrativo Financiero Municipal)
+
+- **Microsoft Office:**
+  ![Word](https://img.shields.io/badge/Word-2B579A.svg?style=flat&logo=microsoft-word&logoColor=white)
+  ![Excel](https://img.shields.io/badge/Excel-217346.svg?style=flat&logo=microsoft-excel&logoColor=white)
+
 
 ---
 
@@ -36,7 +63,7 @@ Soy un profesional con una sólida trayectoria en **administración**, **gestió
 - [**Carrito de compras**](https://github.com/nmainer/NestJs--Carrito-compras)  
   *Desarrollado con React, TypeScript y CSS.*
 
-- [**API de Gestión de Inventarios**](https://github.com/tuusuario/api-inventarios)  
+- [**Turnero sanatorio**](https://github.com/nmainer/Proyect-N-3-Full_Stack_React_Vite)  
   *Una API REST creada con NestJS y SQL para la gestión de inventarios.*
 
 ---
