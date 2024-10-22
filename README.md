@@ -65,6 +65,9 @@ Soy un profesional con una sólida trayectoria en **administración**, **gestió
 
 - [**Turnero sanatorio**](https://github.com/nmainer/Proyect-N-3-Full_Stack_React_Vite)  
   *Una API REST creada con NestJS y SQL para la gestión de inventarios.*
+  
+- [**Plataforma Cinema**](https://github.com/nmainer/NestJs--Carrito-compras)  
+  *Desarrollado con React, TypeScript y CSS.*
 
 ---
 
