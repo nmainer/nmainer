@@ -33,7 +33,7 @@ Soy un profesional con una sólida trayectoria en **administración**, **gestió
 
 ### 💡 Proyectos Destacados
 
-- [**Carrito de compras**]([https://github.com/tuusuario/portfolio](https://github.com/nmainer/NestJs--Carrito-compras))  
+- [**Carrito de compras**](https://github.com/nmainer/NestJs--Carrito-compras)  
   *Desarrollado con React, TypeScript y CSS.*
 
 - [**API de Gestión de Inventarios**](https://github.com/tuusuario/api-inventarios)  
