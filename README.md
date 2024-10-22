@@ -1,4 +1,7 @@
-# 👨‍💻 Profesional en Administración, Comercio y Full-Stack Developer en Formación
+### 👋 ¡Hola! Soy Nico
+
+ 👨‍💻 Soy un profesional en Administración, Comercio y Full-Stack Developer en formación. Me apasiona resolver problemas y optimizar procesos mediante la tecnología.
+
 
 ### Resolutivo y orientado a la optimización de procesos
 
