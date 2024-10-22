@@ -53,21 +53,21 @@ Soy un profesional con una sólida trayectoria en **administración**, **gestió
 ---
 
 ### 📈 Estadísticas de GitHub
-![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=tuusuario&show_icons=true&theme=radical)
-![Top Lenguajes](https://github-readme-stats.vercel.app/api/top-langs/?username=tuusuario&layout=compact&theme=radical)
+![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=nmainero&show_icons=true&theme=radical)
+![Top Lenguajes](https://github-readme-stats.vercel.app/api/top-langs/?username=nmainer&layout=compact&theme=radical)
 
 ---
 
 ### 💡 Proyectos Destacados
 
 - [**Carrito de compras**](https://github.com/nmainer/NestJs--Carrito-compras)  
-  *Desarrollado con React, TypeScript y CSS.*
+  *Aplicación de carrito de compras desarrollada con React, TypeScript y CSS para gestionar productos y compras de manera interactiva.*
 
 - [**Turnero sanatorio**](https://github.com/nmainer/Proyect-N-3-Full_Stack_React_Vite)  
-  *Una API REST creada con NestJS y SQL para la gestión de inventarios.*
+  *Sistema de turnos para sanatorios, con una API REST creada en NestJS y SQL para la gestión de citas médicas.*
   
-- [**Plataforma Cinema**](https://github.com/nmainer/NestJs--Carrito-compras)  
-  *Desarrollado con React, TypeScript y CSS.*
+- [**Plataforma Cinema**](https://github.com/nmainer/Proyect-N-2-DOM_API)  
+  *Plataforma de gestión de películas desarrollada con React, TypeScript y CSS, enfocada en mostrar y gestionar información de films.*
 
 ---
 
