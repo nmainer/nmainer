@@ -53,7 +53,7 @@ Soy un profesional con una sólida trayectoria en **administración**, **gestió
 ---
 
 ### 📈 Estadísticas de GitHub
-![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=nmainero&show_icons=true&theme=radical)
+![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=nmainer&show_icons=true&theme=radical)
 ![Top Lenguajes](https://github-readme-stats.vercel.app/api/top-langs/?username=nmainer&layout=compact&theme=radical)
 
 ---
