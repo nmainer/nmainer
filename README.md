@@ -65,6 +65,9 @@ En mi rol en el ambito publico, implementé sistemas como RAFAM, SIIN y SIEM, me
   
 - [**Plataforma Cinema**](https://github.com/nmainer/Proyect-N-2-DOM_API)  
   *Plataforma de gestión de películas desarrollada con React, TypeScript y CSS, enfocada en mostrar y gestionar información de films.*
+  
+- [**Voting System**](https://proyecto-modulo5.vercel.app)  
+  *Plataforma destinada a la emision de sufragios a nivel vecinal, clubes de barrios, consorcios . Incluyendo autenticacion, cuentas y roles.*
 
 ---
 
