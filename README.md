@@ -2,18 +2,15 @@
 
 
 
-  👨‍💻  Profesional con una sólida trayectoria en **administración**, **gestión comercial** y **desarrollo web Full-Stack**, capacitado para enfrentar y resolver desafíos complejos en sectores públicos y privados. Mi enfoque está en la **optimización de procesos**, la mejora continua y la implementación de soluciones tecnológicas que permitan alcanzar objetivos estratégicos.
+  👨‍💻  Soy un Full-Stack Developer graduado de la academia soy Henry, con experiencia en administración y gestión comercial en sectores públicos y privados. Mi enfoque se centra en la resolución de problemas y la optimización de procesos a través del desarrollo de soluciones tecnológicas efectivas.
 
 ---
 
 ### ✨ Experiencia Destacada
 
-- **Asistente Ejecutivo de Coordinación Técnica Administrativa**  
-  *Municipalidad de Santa Fe*  
-  Implementé sistemas como **RAFAM**, **SIIN**, y **SIEM**, mejorando significativamente la gestión de recursos públicos. Estas acciones contribuyeron a aumentar la eficiencia operativa y reducir los tiempos de gestión administrativa.
-  
-- **Gestión Comercial en el Ámbito Privado**  
-  Gestioné **inventarios**, **control de stock**, y **finanzas**, optimizando procesos comerciales y logrando el crecimiento de los negocios mediante el desarrollo de soluciones efectivas.
+He trabajado con tecnologías como JavaScript, React, TypeScript, NestJS y SQL, utilizando metodologías ágiles para asegurar resultados escalables y eficientes. Mi habilidad para adaptarme rápidamente a nuevas tecnologías me permite ofrecer soluciones creativas a desafíos complejos.
+
+En mi rol en el ambito publico, implementé sistemas como RAFAM, SIIN y SIEM, mejorando la eficiencia operativa y reduciendo los tiempos de gestión administrativa. También he gestionado inventarios y finanzas en el ámbito privado, contribuyendo al crecimiento empresarial mediante la optimización de flujos de trabajo.
 
 ---
 
