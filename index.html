@@ -4,83 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             background-color: #1e1e2f; /* Fondo azul oscuro */
             color: #ffffff; /* Color del texto en blanco */
-            font-family: Arial, sans-serif; /* Fuente del texto */
-            margin: 0;
-            padding: 20px;
-            text-align: center;
+            font-family: Arial, sans-serif;
         }
-
-        h1 {
-            font-size: 2.5em; /* Tamaño de la cabecera */
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
         }
-
-        p {
-            font-size: 1.2em; /* Tamaño del texto */
-        }
-
-        .emoji {
-            font-size: 1.5em; /* Tamaño de los emoticonos */
-        }
-
-        .project-container {
-            display: flex; /* Usar flexbox para alinear las tarjetas */
-            justify-content: center; /* Centrar las tarjetas */
-            flex-wrap: wrap; /* Permitir que las tarjetas se envuelvan en varias líneas */
-            margin-top: 20px; /* Espacio superior */
-        }
-
         .project-card {
-            background-color: #2c2c3e; /* Color de fondo de la tarjeta */
-            border-radius: 10px; /* Bordes redondeados */
-            padding: 20px; /* Espacio interno */
-            margin: 10px; /* Espacio externo entre tarjetas */
-            width: 250px; /* Ancho de la tarjeta */
-            transition: transform 0.2s; /* Efecto de transformación suave */
-            text-align: left; /* Alinear texto a la izquierda */
+            background-color: #2c2c3e;
+            color: #ffffff;
         }
-
-        .project-card:hover {
-            transform: scale(1.05); /* Escalar la tarjeta al pasar el mouse */
-        }
-
-        .project-card a {
-            text-decoration: none; /* Sin subrayado en los enlaces */
-            color: #ffffff; /* Color del texto del enlace */
-            font-size: 1.1em; /* Tamaño del texto del enlace */
-        }
-
-        .project-description {
-            margin-top: 10px; /* Espacio superior para la descripción */
-            font-size: 0.9em; /* Tamaño de la descripción */
+        .nav-link {
+            color: #ffffff !important;
         }
     </style>
 </head>
 <body>
-    <h1>¡Hola! Soy Nicolás 👋</h1>
-    <p>Desarrollador web apasionado por React y NestJS. 🚀</p>
-    <p>Tengo experiencia en la creación de aplicaciones intuitivas y escalables. 💻</p>
-    <p>Me considero un ejecutor y resolutivo, optimizando procesos y superando desafíos. 💪</p>
-    <p>En mi tiempo libre, disfruto aprender nuevas tecnologías, escuchar música 🎶, ver series 📺 y cocinar 🍳.</p>
 
-    <div class="project-container">
-        <div class="project-card">
-            <a href="https://github.com/nmainer/NestJs--Carrito-compras" target="_blank">Carrito de Compras 🛒</a>
-            <div class="project-description">Aplicación de carrito de compras desarrollada con React, TypeScript y CSS para gestionar productos y compras de manera interactiva.</div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Mi Portafolio</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#perfil">Perfil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
         </div>
-        <div class="project-card">
-            <a href="https://github.com/nmainer/Proyect-N-3-Full_Stack_React_Vite" target="_blank">Turnero Sanatorio 🏥</a>
-            <div class="project-description">Sistema de turnos para sanatorios, con una API REST creada en NestJS y SQL para la gestión de citas médicas.</div>
+    </nav>
+
+    <!-- Perfil -->
+    <section id="perfil" class="text-center mt-5">
+        <img src="tu-foto-de-perfil.jpg" alt="Foto de perfil" class="profile-pic">
+        <h1 class="mt-3">¡Hola! Soy Nicolás 👋</h1>
+        <p class="lead">Desarrollador web apasionado por React y NestJS. 🚀</p>
+        <p>Experto en la creación de aplicaciones intuitivas y escalables. 💻 En mi tiempo libre, disfruto aprender nuevas tecnologías, escuchar música 🎶, ver series 📺 y cocinar 🍳.</p>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="container mt-5">
+        <h2 class="text-center mb-4">Mis Proyectos</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card project-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://github.com/nmainer/NestJs--Carrito-compras" target="_blank" class="text-white">Carrito de Compras 🛒</a></h5>
+                        <p class="card-text">Aplicación de carrito de compras desarrollada con React, TypeScript y CSS para gestionar productos y compras de manera interactiva.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card project-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://github.com/nmainer/Proyect-N-3-Full_Stack_React_Vite" target="_blank" class="text-white">Turnero Sanatorio 🏥</a></h5>
+                        <p class="card-text">Sistema de turnos para sanatorios, con una API REST creada en NestJS y SQL para la gestión de citas médicas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card project-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://github.com/nmainer/Proyect-N-2-DOM_API" target="_blank" class="text-white">Plataforma Cinema 🎬</a></h5>
+                        <p class="card-text">Plataforma de gestión de películas desarrollada con React, TypeScript y CSS, enfocada en mostrar y gestionar información de films.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="project-card">
-            <a href="https://github.com/nmainer/Proyect-N-2-DOM_API" target="_blank">Plataforma Cinema 🎬</a>
-            <div class="project-description">Plataforma de gestión de películas desarrollada con React, TypeScript y CSS, enfocada en mostrar y gestionar información de films.</div>
-        </div>
-    </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="text-center mt-5 mb-5">
+        <h2>Contacto</h2>
+        <p>¿Tienes un proyecto interesante? ¡Hablemos!</p>
+        <p>Email: <a href="mailto:tuemail@example.com" class="text-white">tuemail@example.com</a></p>
+    </section>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
-
-
