@@ -8,29 +8,70 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: #1e1e2f; /* Fondo azul oscuro */
-            color: #ffffff; /* Color del texto en blanco */
-            font-family: Arial, sans-serif;
+            background-color: #f4f7fc; /* Fondo claro */
+            color: #333333; /* Color del texto en gris oscuro */
+            font-family: 'Roboto', sans-serif;
+        }
+        .navbar {
+            background-color: #5c6bc0; /* Azul suave */
+        }
+        .navbar-brand, .nav-link {
+            color: #ffffff !important;
+        }
+        .navbar-nav .nav-item .nav-link:hover {
+            color: #ffd54f !important; /* Color amarillo suave al pasar el mouse */
         }
         .profile-pic {
             width: 150px;
             height: 150px;
             border-radius: 50%;
             margin-top: 20px;
+            border: 3px solid #5c6bc0; /* Borde sutil en azul */
+        }
+        .section-title {
+            font-size: 2rem;
+            font-weight: 500;
+            color: #5c6bc0;
         }
         .project-card {
-            background-color: #2c2c3e;
-            color: #ffffff;
+            background-color: #ffffff; /* Fondo blanco */
+            border: 1px solid #e0e0e0; /* Borde sutil */
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-        .nav-link {
-            color: #ffffff !important;
+        .project-card:hover {
+            transform: translateY(-5px); /* Efecto de hover */
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        }
+        .card-body {
+            padding: 1.5rem;
+        }
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #5c6bc0;
+        }
+        .card-text {
+            color: #666666;
+        }
+        .btn-contact {
+            background-color: #5c6bc0;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.1rem;
+            border-radius: 5px;
+        }
+        .btn-contact:hover {
+            background-color: #3f51b5;
         }
     </style>
 </head>
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">Mi Portafolio</a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
@@ -51,20 +92,20 @@
 
     <!-- Proyectos -->
     <section id="proyectos" class="container mt-5">
-        <h2 class="text-center mb-4">Mis Proyectos</h2>
+        <h2 class="text-center section-title mb-4">Mis Proyectos</h2>
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card project-card h-100">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="https://proyect-n-1-dom.vercel.app/" target="_blank" class="text-white">Generador de tarjetas ♥</a></h5>
-                        <p class="card-text"> Aplicacion basica utilizando DOM, Css , Html . Genera tus propias tarjetas!.</p>
+                        <h5 class="card-title"><a href="https://proyect-n-1-dom.vercel.app/" target="_blank">Generador de tarjetas ♥</a></h5>
+                        <p class="card-text">Aplicación básica utilizando DOM, CSS, HTML. ¡Genera tus propias tarjetas!</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card project-card h-100">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="https://turnero-sanatorio.vercel.app/" target="_blank" class="text-white">Turnero Sanatorio 🏥</a></h5>
+                        <h5 class="card-title"><a href="https://turnero-sanatorio.vercel.app/" target="_blank">Turnero Sanatorio 🏥</a></h5>
                         <p class="card-text">Sistema de turnos para sanatorios, con una API REST creada en NestJS y SQL para la gestión de citas médicas.</p>
                     </div>
                 </div>
@@ -72,7 +113,7 @@
             <div class="col-md-4 mb-4">
                 <div class="card project-card h-100">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="https://github.com/nmainer/Proyect-N-2-DOM_API" target="_blank" class="text-white">Plataforma Cinema 🎬</a></h5>
+                        <h5 class="card-title"><a href="https://github.com/nmainer/Proyect-N-2-DOM_API" target="_blank">Plataforma Cinema 🎬</a></h5>
                         <p class="card-text">Plataforma de gestión de películas desarrollada con React, TypeScript y CSS, enfocada en mostrar y gestionar información de films.</p>
                     </div>
                 </div>
@@ -80,8 +121,8 @@
             <div class="col-md-4 mb-4">
                 <div class="card project-card h-100">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="https://proyecto-modulo5.vercel.app/" target="_blank" class="text-white">Voting System ✉️ </a></h5>
-                        <p class="card-text">Plataforma de emision de sufragios destinado a vecinales, clubes de barrio , consorcios. Desarrollado mediante tecnologias como React,NestJs,SQL.</p>
+                        <h5 class="card-title"><a href="https://proyecto-modulo5.vercel.app/" target="_blank">Voting System ✉️</a></h5>
+                        <p class="card-text">Plataforma de emisión de sufragios destinada a vecinales, clubes de barrio, consorcios. Desarrollado con React, NestJS y SQL.</p>
                     </div>
                 </div>
             </div>
@@ -90,10 +131,10 @@
 
     <!-- Contacto -->
     <section id="contacto" class="text-center mt-5 mb-5">
-        <h2>Contacto</h2>
+        <h2 class="section-title">Contacto</h2>
         <p>¿Tienes un proyecto interesante? ¡Hablemos!</p>
-        <p>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mainermnicolas@gmail.com" target="_blank" class="text-white">mainermnicolas@gmail.com</a></p>
-
+        <p>Email: <a href="mailto:mainermnicolas@gmail.com" class="text-decoration-none text-primary">mainermnicolas@gmail.com</a></p>
+        <a href="mailto:mainermnicolas@gmail.com" class="btn-contact">Enviar un mensaje</a>
     </section>
 
     <!-- Bootstrap JS, Popper.js, and jQuery -->
@@ -103,3 +144,4 @@
 
 </body>
 </html>
+
