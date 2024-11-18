@@ -66,7 +66,7 @@ En mi rol en el ambito publico, implementé sistemas como RAFAM, SIIN y SIEM, me
 - [**Turnero sanatorio**](https://turnero-sanatorio.vercel.app/)  
   *Sistema de turnos para sanatorios, con una API REST creada en NestJS y SQL para la gestión de citas médicas.*
   
-- [**Plataforma Cinema**](https://github.com/nmainer/Proyect-N-2-DOM_API)  
+- [**Plataforma Cinema**](https://cinema-azure-iota.vercel.app/)  
   *Plataforma de gestión de películas desarrollada con React, TypeScript y CSS, enfocada en mostrar y gestionar información de films.*
   
 - [**Voting System**](https://proyecto-modulo5.vercel.app)  
