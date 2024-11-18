@@ -57,7 +57,7 @@ En mi rol en el ambito publico, implementé sistemas como RAFAM, SIIN y SIEM, me
 
 ### 💡 Proyectos Destacados
 
-- [**Generador de tarjetas**](https://github.com/nmainer/NestJs--Carrito-compras)  
+- [**Generador de tarjetas**](https://proyect-n-1-dom.vercel.app/)  
   *App basica donde se expone el trabajo sobre DOM con herramientas con HTML,Css y JS.*
 
 - [**Carrito de compras**](https://github.com/nmainer/NestJs--Carrito-compras)  
