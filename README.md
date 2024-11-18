@@ -63,7 +63,7 @@ En mi rol en el ambito publico, implementé sistemas como RAFAM, SIIN y SIEM, me
 - [**Carrito de compras**](https://github.com/nmainer/NestJs--Carrito-compras)  
   *Aplicación de carrito de compras desarrollada con React, TypeScript y CSS para gestionar productos y compras de manera interactiva.*
 
-- [**Turnero sanatorio**](https://github.com/nmainer/Proyect-N-3-Full_Stack_React_Vite)  
+- [**Turnero sanatorio**](https://turnero-sanatorio.vercel.app/)  
   *Sistema de turnos para sanatorios, con una API REST creada en NestJS y SQL para la gestión de citas médicas.*
   
 - [**Plataforma Cinema**](https://github.com/nmainer/Proyect-N-2-DOM_API)  
