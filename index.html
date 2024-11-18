@@ -1,79 +1,120 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
-            background-color: #f4f7fc; /* Fondo claro */
-            color: #333333; /* Color del texto en gris oscuro */
+            background-color: #f8f9fa; /* Fondo pastel claro */
+            color: #343a40; /* Texto en gris oscuro */
             font-family: 'Roboto', sans-serif;
         }
+
         .navbar {
-            background-color: #5c6bc0; /* Azul suave */
+            background-color: #86a8e7; /* Azul pastel */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+
         .navbar-brand, .nav-link {
-            color: #ffffff !important;
+            color: white !important;
+            font-weight: 500;
         }
-        .navbar-nav .nav-item .nav-link:hover {
-            color: #ffd54f !important; /* Color amarillo suave al pasar el mouse */
+
+        .nav-link:hover {
+            color: #ffd54f !important; /* Amarillo pastel */
         }
+
         .profile-pic {
             width: 150px;
             height: 150px;
             border-radius: 50%;
             margin-top: 20px;
-            border: 3px solid #5c6bc0; /* Borde sutil en azul */
+            border: 3px solid #86a8e7;
         }
+
         .section-title {
             font-size: 2rem;
-            font-weight: 500;
+            font-weight: 700;
             color: #5c6bc0;
+            margin-bottom: 20px;
         }
+
         .project-card {
-            background-color: #ffffff; /* Fondo blanco */
-            border: 1px solid #e0e0e0; /* Borde sutil */
-            border-radius: 8px; /* Bordes redondeados */
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
+
         .project-card:hover {
-            transform: translateY(-5px); /* Efecto de hover */
+            transform: translateY(-5px);
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
         }
+
         .card-body {
             padding: 1.5rem;
         }
+
         .card-title {
             font-size: 1.2rem;
             font-weight: 600;
             color: #5c6bc0;
         }
+
         .card-text {
             color: #666666;
         }
+
         .btn-contact {
-            background-color: #5c6bc0;
+            background-color: #86a8e7;
             color: white;
             border: none;
             padding: 10px 20px;
             font-size: 1.1rem;
             border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
         }
+
         .btn-contact:hover {
-            background-color: #3f51b5;
+            background-color: #5c6bc0;
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+            color: #666666;
+        }
+
+        footer a {
+            color: #5c6bc0;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
+
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">Mi Portafolio</a>
-        <div class="collapse navbar-collapse">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="#perfil">Perfil</a></li>
                 <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
@@ -92,8 +133,9 @@
 
     <!-- Proyectos -->
     <section id="proyectos" class="container mt-5">
-        <h2 class="text-center section-title mb-4">Mis Proyectos</h2>
+        <h2 class="text-center section-title">Mis Proyectos</h2>
         <div class="row">
+            <!-- Project 1 -->
             <div class="col-md-4 mb-4">
                 <div class="card project-card h-100">
                     <div class="card-body">
@@ -102,6 +144,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Project 2 -->
             <div class="col-md-4 mb-4">
                 <div class="card project-card h-100">
                     <div class="card-body">
@@ -110,6 +153,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Project 3 -->
             <div class="col-md-4 mb-4">
                 <div class="card project-card h-100">
                     <div class="card-body">
@@ -118,6 +162,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Project 4 -->
             <div class="col-md-4 mb-4">
                 <div class="card project-card h-100">
                     <div class="card-body">
@@ -130,18 +175,26 @@
     </section>
 
     <!-- Contacto -->
-    <section id="contacto" class="text-center mt-5 mb-5">
+    <section id="contacto" class="text-center mt-5">
         <h2 class="section-title">Contacto</h2>
         <p>¿Tienes un proyecto interesante? ¡Hablemos!</p>
-        <p>Email: <a href="mailto:mainermnicolas@gmail.com" class="text-decoration-none text-primary">mainermnicolas@gmail.com</a></p>
+        <p>Email: <a href="mailto:mainermnicolas@gmail.com" class="text-decoration-none">mainermnicolas@gmail.com</a></p>
         <a href="mailto:mainermnicolas@gmail.com" class="btn-contact">Enviar un mensaje</a>
     </section>
 
-    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Nicolás Mainer. Todos los derechos reservados.</p>
+        <p><a href="https://github.com/nmainer" target="_blank">GitHub</a></p>
+    </footer>
+
+    <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
+
 
